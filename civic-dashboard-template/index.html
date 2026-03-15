@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Council Incident Dashboard</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Council Incident Dashboard</h1>
+
+<p class="muted">
+Last updated: <span id="lastUpdated">Loading...</span>
+</p>
+
+<div class="kpi-grid">
+
+<div class="card">
+<h3>Total incidents</h3>
+<div id="totalIncidents">--</div>
+</div>
+
+<div class="card">
+<h3>Open incidents</h3>
+<div id="openIncidents">--</div>
+</div>
+
+<div class="card">
+<h3>Resolved incidents</h3>
+<div id="resolvedIncidents">--</div>
+</div>
+
+</div>
+
+<div class="card">
+<h2>Incidents by category</h2>
+<canvas id="categoryChart"></canvas>
+</div>
+
+<div class="card">
+<h2>Recent records</h2>
+
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Date</th>
+<th>Suburb</th>
+<th>Category</th>
+<th>Status</th>
+<th>Priority</th>
+</tr>
+</thead>
+
+<tbody id="recordsTable">
+<tr>
+<td colspan="6">Loading...</td>
+</tr>
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+<script src="dashboard.js"></script>
+
+</body>
+</html>

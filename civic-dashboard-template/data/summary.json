@@ -1,0 +1,13 @@
+
+{
+  "lastUpdated": "2026-03-20T09:15:00Z",
+  "metrics": {
+    "totalIncidents": 0,
+    "openIncidents": 0,
+    "resolvedIncidents": 0,
+    "inProgressIncidents": 0
+  },
+  "byCategory": [],
+  "byPriority": [],
+  "recentRecords": []
+}
